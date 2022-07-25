@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React from 'react';
 import Home from './components/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import All from './components/All';
-import Add from './components/Add';
+import CalificacionesS from './components/CalificacionesS';
+import Cursos from './components/Cursos';
 
 function App() {
   return (

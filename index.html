@@ -7,13 +7,17 @@
     <title>Document</title>
 
 </head>
-<body>
+<body class="body1">
     <head>
     <address>
     <h1 class="inicio"> Canvas  </h1>
     </head>
-    <img class= "fotoM" src="https://ssl.sitew.org/images/blog/articles/menu/3.png">
+    <img class= "fotoM" src="https://i.pinimg.com/originals/7b/b5/88/7bb5885df4ace76cb7437b191abf4823.jpg">
+    <div class="avisos">
+        <h2  class="aviso1">Avisos importantes</h2>
+        <strong> Asueto 15 Septiembre</strong><br>
     
+        </div>
     <ul>
    <a href="Horario.html"><li> <h3 >Horario </h3><br></li></a>
    <a href="Perfil.html"><li> <h3 >Perfil </h3><br></li></a>
@@ -21,22 +25,35 @@
    <a href="Calificaciones.html"><li> <h3 >Calificaciones semestre </h3><br></li></a>
     </ul>
 
-    <div class="avisos">
-    <h2 >Avisos importantes</h2>
-    <strong> Asueto 15 Septiembre</strong><br>
-
-    </div>
+    <div class="buttons">
+        <button class="logO btn-info" id="log"> 
+          Log out
+        </button><br><br><br>
+        <button class="confS btn-success" id="conf"> 
+         Configuración
+        </button> <br> <br>
+      
+      </div>
+      <img class="fotoF" src="https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-blue-lines-futuristic-technology-background-backgroundblue-backgroundflow-light-image_64589.jpg">
     <footer>
-  
-<style>
+  <style>
+    .body1{
+        background-color: wheat;
+    }
     .fotoM{
         text-align:center;
-        width: 115%;
+        width:2150px;
+        height: 300px;
 
     }
+    .fotoF{
+        text-align:left;
+        width:2300px;
+        height: 200px;
+    }
     .avisos{
-        top:0;
-        text-align: right;
+
+        text-align: center;
     }
     .inicio{
         text-align: center;
@@ -57,16 +74,16 @@
         font-size: 10px;
         text-align: left;
     }
-    h2.border{
+    .aviso1{
         font-size: 10px;
-        width: 20%;
+       width: 2150px;
         padding: 10px;
         letter-spacing: 10px;
-        text-align: left;
+        text-align: center;
         margin-top: 15px;
         border-style:solid;
         border-color: black;
-        text-align: left
+        
     }
     #link{
         font-size: 10px;
@@ -76,7 +93,13 @@
         color: blue;
         padding: 10px;
     }
-</style>
+    .buttons{
+        margin: 0 auto 10px auto;
+        width: 97%; 
+      }
+
+  </style>
+
 </footer>
 </body>
 </html>
